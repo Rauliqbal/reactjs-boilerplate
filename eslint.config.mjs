@@ -22,6 +22,9 @@ export default [
     "plugin:tailwindcss/recommended"
   ),
   {
+    ignores: ["dist/"],
+  },
+  {
     plugins: {
       react,
       prettier,
