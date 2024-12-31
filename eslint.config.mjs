@@ -1,4 +1,5 @@
 import react from "eslint-plugin-react"
+import prettier from "eslint-plugin-prettier"
 import globals from "globals"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
@@ -25,7 +26,6 @@ export default [
       react,
       prettier,
     },
-
     languageOptions: {
       globals: {
         ...globals.node,
